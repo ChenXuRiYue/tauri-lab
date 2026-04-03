@@ -1,0 +1,18 @@
+[package]
+name = "manifest-parser" # create 名称，cargo build/test 时用这个名字
+version = "0.1.0"        # 版本号
+edition = "2024"         # Rust 版本。默认语法行为
+
+[dependencies]           # 依赖声明 (外部引入 的 create)
+serde = {version = "1.0", features = ["derive"]} # version: 版本号，features: 可选功能
+serde_json = "1"       # 
+
+# 从 https://crates.io 下载 crate
+# features: 启用可选功能，default-features是否启用默认功能。optional 是否作为可选依赖
+
+
+# 检查：
+# 1. cargo check：检查依赖是否成功拉取
+# 2. cargo run 运行项目
+# 3. cargo test 测试运行
+# 4. 编译生成二进制文件
