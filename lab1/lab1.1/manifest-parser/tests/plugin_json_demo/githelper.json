@@ -1,0 +1,7 @@
+{
+  "name": "git_helper", 
+  "plugin_type": "tool",
+  "version": "1.0",
+  "github_url": "https://github.com/user/git_helper",
+  "plugin_version": "1.0"
+}

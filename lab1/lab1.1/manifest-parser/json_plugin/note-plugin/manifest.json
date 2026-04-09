@@ -1,0 +1,13 @@
+{
+  "name": "valid-plugin",
+  "version": "0.1.0",
+  "pluginType": "internal",
+  "githubUrl": "https://github.com/example/valid-plugin",
+  "pluginVersion": "1",
+  "commands": [
+    {
+      "id": "run",
+      "description": "Run the plugin"
+    }
+  ]
+}
